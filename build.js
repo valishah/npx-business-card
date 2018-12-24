@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('               Vali Shah'),
   handle: chalk.white('valishah'),
-  work: chalk.white('Senior Software Engineer - Fullstack'),
+  work: chalk.white('Senior Software Engineer - Full Stack'),
   // opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('vali_shah'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~valishah'),
@@ -55,7 +55,7 @@ const output = heading + // data.name + data.handle
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
-               linkedining + newline + // data.labelLinkedIn + data.linkedin
+               linkedining + newline + newline +// data.labelLinkedIn + data.linkedin
               //  webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
