@@ -1,5 +1,5 @@
 
-Personalised business card as a npm module. 
+Personalised business card as a npm module. A breif idea of what it is and how it works can be found in this [blog](https://hackernoon.com/npx-npm-package-runner-7f6683e4304a)
 
 ### Usage
 Via npx:
@@ -12,3 +12,4 @@ $ npx valishah
 Here is how it will look like
 
 ![Business Card](./images/business-card.png)
+
