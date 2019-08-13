@@ -1,17 +1,17 @@
 {
   "name": "valishah",
-  "version": "1.0.1",
-  "description": "A personal card for Vali Shah",
+  "version": "1.0.2",
+  "description": "A personal card of Vali Shah",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "valishah": "./bin/card.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valishah/npx-business-card.git"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
@@ -28,8 +28,7 @@
   "author": "Vali Shah <vali.shah7@gmail.com>",
   "license": "MIT",
   "files": [
-    "bin/card.js",
-    "bin/output"
+    "bin"
   ],
   "devDependencies": {
     "boxen": "^2.1.0",
